@@ -1,21 +1,28 @@
-## Lumen PHP Framework
+## API Rest PHPBaires en Lumen
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+Para instalar :
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+1) Abra su consola de comandos y escriba lo siguiente :
+    git clone https://github.com/chrischance67/api_rest_lumen.git
 
-## Official Documentation
+2) Entre en la carpeta mediante su consola de comandos
 
-Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
+3) Ejecute el Comando COMPOSER INSTALL
 
-## Security Vulnerabilities
+4) Editar el Archivo .env con los datos de tu Base de datos
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+5) Ejecutar el Comando PHP ARTISAN MIGRATE
+
+6) Y listo... Ya tenes tu propia API Rest en PHP, Ejecute el comando PHP ARTISAN SERVE para probarla
+
+LA DOCUMENTACION DE LA API ESTA EN A PRIMERA VISTA
+
+### Requisitos
+  
+  - Tener PHP instalado
+  - Tener MySQL instalado
+  - Tener Composer instalado
 
 ### License
 
-The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The API Rest PHPBaires is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
